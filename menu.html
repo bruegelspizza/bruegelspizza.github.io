@@ -1,0 +1,62 @@
+---
+title: MENU
+permalink: "/menu/"
+layout: page
+navigation_weight: 4
+bgimage: header.jpg
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-md-offset-2">
+      {% for category-item in site.data.categories %}
+      <div class="category-section" id="{{category-item.name|replace:' ', '-'}}">
+	<h2 class="menu-category accordion-toggle" data-toggle="collapse" data-target="#{{category-item.name|replace:' ', '-'}}-data" id="{{ category-item.name|replace:' ', '-'}}">{{ category-item.name }} <i class="indicator glyphicon glyphicon-chevron-down"></i> </h2>
+	<div class="accordion-body collapse" id="{{category-item.name |replace:' ', '-'}}-data">
+	{% if category-item.pre-blurb %}
+	<p class="menu-category-blurb"> {{ category-item.pre-blurb }} </p>
+	{% endif %}
+	  <table class="table table-hover">
+	    <tbody>
+	      {% assign previous-name = "" %}
+	      {% assign sub-menu = site.data.menu | where: "category", category-item.name  %}
+	      {% for menu-item in sub-menu %}
+		<tr>   
+		  {% if menu-item.name != previous-name %}
+		  <td><strong>{{ menu-item.name }}</strong></td>
+		  {% else %}
+		  <td></td>
+		  {% endif %}
+		  {% assign previous-name = menu-item.name %}
+		  <td>{{ menu-item.description }}</td>
+		  <td><strong>{{ menu-item.price }}</strong></td>
+		</tr>
+	      {% endfor %}
+	    </tbody>
+	  </table>
+	{% if category-item.post-blurb %}
+	<p class="menu-category-blurb"> {{ category-item.post-blurb }} </p>
+	{% endif %}
+	</div>
+      </div>
+      {% endfor %}
+      <!-- Build your own section -->
+      <div class="category-section" id="buildyourown">
+	<h2 class="menu-category accordion-toggle" data-toggle="collapse" data-target="#buildyourown-data" id="buildyourown">Build your own<i class="indicator glyphicon glyphicon-chevron-down"></i></h2>
+	<div class="accordion-body collapse" id="buildyourown-data">
+	<p class="menu-category-blurb">Create your own pizza with one or a combination of the following toppings</p>
+	  <table class="table table-hover">
+	    <tbody>
+	      {% for build-item in site.data.build %}
+		<tr>   
+		  <td>{{ build-item.description}}</td>
+		  <td><strong>{{ build-item.price }}</strong></td>
+		</tr>
+	      {% endfor %}
+	    </tbody>
+	  </table>
+	</div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,300 @@
+- name: Pizza Breads
+  description: Brushed with olive oil & crushed garlic.
+  price: 23
+  category: Starters
+
+- name: Pizza Breads
+  description: Feta or Peppadews & feta.
+  price: 27/30 
+  category: Starters
+
+- name: Pizza Breads
+  description: Goats milk cheese, rosa tomatoes & fresh rocket.
+  price: 42 
+  category: Starters
+
+- name: Pizza Breads
+  description: "*Green fig preserve & blue cheese."
+  price: 38 
+  category: Starters
+
+- name: Chicken Livers 
+  description: Pan fried with fresh ginger, coriander & tomato & served with garlic pizza bread.
+  price: 35 
+  category: Starters
+
+- name: Snails
+  description: Served in sizzling garlic butter with slices of garlic pizza bread.
+  price: 36 
+  category: Starters
+
+- name: Mushrooms 
+  description: Pan fried portabellini mushrooms in a balsamic glaze with sliced garlic pizza breed.
+  price: 32 
+  category: Starters
+
+- name: Rosa 
+  description: "Lettuce, rosa tomatoes, peppers, cucumber, onion & *avocado."
+  price: 45 
+  category: Salads 
+
+- name: El Greco 
+  description: Our rosa salad loaded with feta & olives.
+  price: 49 
+  category: Salads 
+
+- name: Pemba 
+  description: "Mixed greens, roasted butternut, feta, cucumber, wild rocket & *avocado."
+  price: 53 
+  category: Salads 
+
+- name: O'Keeffe 
+  description: Oven roasted vegetables on mixed greens with basil pesto & feta.
+  price: 55 
+  category: Salads 
+
+- name: Cesari 
+  description: "Smoked salmon, *avocado, rosa tomatoes, cucumber on a bed of freens served with Crème Fraîche."
+  price: 74 
+  category: Salads 
+
+- name: Alfredo 
+  description: Ham & mushroom in a creamy sauce.
+  price: 63 
+  category: Pasta 
+
+- name: Bolognaise 
+  description: Ground beef in our tasty neopolitana sauce.
+  price: 66 
+  category: Pasta 
+
+- name: Roast veg 
+  description: Topped with oven roasted vegetables & basil pesto.
+  price: 52 
+  category: Pasta 
+
+- name: Funghi 
+  description: "Mushrooms, rosa tomatoes, **chilli & garlic."
+  price: 64 
+  category: Pasta 
+
+- name: Puttanesca 
+  description: "Neapolitana sauce with Italian anchovies, olives, capers & **chilli."
+  price: 74 
+  category: Pasta 
+
+- name: Beef Lasagne 
+  description: Oven baked layers of pasta, pure ground beef, cream sauce & mozzarella.
+  price: 68 
+  category: Pasta 
+
+- name: Chicken Lasagne 
+  description: Thai style chicken in a mildly spiced cream based sauce, topped with mozzarella & oven baked.
+  price: 68 
+  category: Pasta 
+
+- name: Vegetable 
+  description: Butternut, spinach & feta topped with grated mozzarella & oven baked.
+  price: 63 
+  category: Pasta 
+
+- name: Ravioli 
+  description: Butternut ravioli served in our neapolitana sauce with a dash of cream.
+  price: 60 
+  category: Pasta 
+
+- name: Beef Ravioli 
+  description: Beef Ravioli served in a cream and black pepper sauce.
+  price: 68 
+  category: Pasta 
+
+- name: Ravioloni 
+  description: Pasta parcels filled with ricotta & spinach in our neapolitana sauce.
+  price: 60 
+  category: Pasta 
+
+- name: Mediterranean 
+  description: Oven roasted veg, mushrooms, olives and basil pesto topped with neapolitana sauce & feta, baked in our wood fired oven.
+  price: 60 
+  category: Wraps 
+
+- name: Chicken 
+  description: "Chicken, onion, peppers, tomato, garlic & **chilli, topped with mozzarella & jalapeno peppers, baked in our wood fired oven."
+  price: 70 
+  category: Wraps 
+
+- name: Margherita 
+  description: Mozzarella, tomato & traditional Italian origanum.
+  price: 48 
+  category: Vegetarian 
+
+- name: Cezanne 
+  description: Spinach, feta & olives
+  price: 71 
+  category: Vegetarian 
+
+- name: Chagall 
+  description: Blue cheese, pear & rocket.
+  price: 73 
+  category: Vegetarian 
+
+- name: Hopper
+  description: Asparagus, artichokes, pineapple & sun-dried tomatoes.
+  price: 81 
+  category: Vegetarian 
+
+- name: Klimt 
+  description: Roasted butternut, camembert & rocket.
+  price: 66 
+  category: Vegetarian 
+
+- name: Michelangelo 
+  description: Camembert, rosa tomatoes & cranberry jelly.
+  price: 76 
+  category: Vegetarian 
+
+- name: Stern
+  description: "Peppadews, feta, onions, **chilli."
+  price: 66 
+  category: Vegetarian 
+
+- name: Tatlin
+  description: Walnuts, blue cheese, rosa tomatoes & rocket.
+  price: 76 
+  category: Vegetarian 
+
+- name: Warhol 
+  description: Roast vegetables with a hint of basil pesto.
+  price: 76 
+  category: Vegetarian 
+
+- name: Da Vinci
+  description: "Bacon, *fresh avocado, mushroom & garlic."
+  price: 83 
+  category: Deli Meat 
+
+- name: Giordano
+  description: Chorizo, olives, mushrooms & capers.
+  price: 83 
+  category: Deli Meat 
+
+- name: Mona Lisa
+  description: Ham & pineapple.
+  price: 66 
+  category: Deli Meat 
+
+- name: Nash
+  description: "Blue cheese, *green fig preserve & bacon."
+  price: 87 
+  category: Deli Meat 
+
+- name: Perugino
+  description: Salami, olives & pineapple.
+  price: 72 
+  category: Deli Meat 
+
+- name: Rothko
+  description: "Coppa ham, *fresh avocado, olives & garlic."
+  price: 87 
+  category: Deli Meat 
+
+- name: Tretchikoff
+  description: Copaa ham, feta & sun-dried tomatoes.
+  price: 87 
+  category: Deli Meat 
+
+- name: Vivaldi
+  description: Salami, mushrooms, peppers & asparagus.
+  price: 77 
+  category: Deli Meat 
+
+- name: Botticelli
+  description: Bacon, brie & pepperdews.
+  price: 85 
+  category: Meat 
+
+- name: Dali
+  description: Ham & mushroom.
+  price: 66 
+  category: Meat 
+
+- name: Denis
+  description: "Beef mince, pineapple, bacon, onion & **chilli."
+  price: 87 
+  category: Meat 
+
+- name: Kahlo
+  description: Bacon, dates & feta.
+  price: 76 
+  category: Meat 
+
+- name: Monet
+  description: Beef mince, onion peppers & garlic.
+  price: 72 
+  category: Meat 
+
+- name: Picasso
+  description: Bacon, banana & garlic.
+  price: 66 
+  category: Meat 
+
+- name: Van Gogh
+  description: Biltong, feta & peppadews.
+  price: 90 
+  category: Meat 
+
+- name: Bruegel
+  description: Smoked chicken, bacon & rosa tomatoes.
+  price: 87 
+  category: Chicken 
+
+- name: Gauguin
+  description: Thai chicken, pineapple, peppers & coriander.
+  price: 74 
+  category: Chicken 
+
+- name: Matisse
+  description: Smoked chicken & pineapple.
+  price: 72
+  category: Chicken 
+
+- name: Renoir
+  description: Chicken livers, bacon & onion.
+  price: 71 
+  category: Chicken 
+
+- name: Yamamoto
+  description: Teriyaki chicken, mushrooms & peppadews.
+  price: 76 
+  category: Chicken 
+
+- name: Degas
+  description: Smoked salmon & Crème Fraîche.
+  price: 96 
+  category: Seafood 
+
+- name: Hokusai
+  description: Tuna, mushroom & peppadews.
+  price: 81 
+  category: Seafood 
+
+- name: Roselli 
+  description: Anchovies, olives & garlic.
+  price: 76 
+  category: Seafood 
+
+- name: Rubens
+  description: "Smoked mussels, peppadews, feta, onions, spinach & ** chilli."
+  price: 87 
+  category: Seafood 
+
+- name: Sekoto
+  description: Tuna, pineapple, onions & chilli.
+  price: 74 
+  category: Seafood 
+
+- name: Kids Pizza 
+  description: Kiddies size pizza with two toppings followed by a yummy ice cream.
+  price: 46 
+  category: Kids 
+

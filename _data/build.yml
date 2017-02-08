@@ -1,0 +1,27 @@
+- description: Banana, butternut, coriander, cranberry, dates, gherkins, jalapeno peppers, onions, pesto, spinach.
+  price: 9 
+  category: Build your own 
+
+- description: Asparagus, capers, olives, peppades, peppers, pineapple, rocket, Crème Fraîche.
+  price: 12 
+  category: Build your own 
+
+- description: "*Avocado, chicken livers, chorizo, rosa tomatoes, sun-dried tomatoes, walnuts."
+  price: 14 
+  category: Build your own 
+
+- description: "Artichokes, blue cheese, extra mozzarella, mushrooms, feta, pears."
+  price: 15 
+  category: Build your own 
+
+- description: "Brie, camambert, *green fig preserve, ham, salami, teriyaki chicken, thai chicken, tuna."
+  price: 18 
+  category: Build your own 
+
+- description: "Bacon, goats milk cheese, Italian anchovies, mince, smoked chicken, smoked mussels."
+  price: 20 
+  category: Build your own 
+
+- description: "Biltong, coppa ham"
+  price: 25 
+  category: Build your own 
