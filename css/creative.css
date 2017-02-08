@@ -568,3 +568,10 @@ hr {
 .indicator {
     font-size:1em;
 }
+
+.main-blurb p{
+    text-align: center;
+    color:white;
+    font-size: 3em;
+    margin-top:25px;
+}
