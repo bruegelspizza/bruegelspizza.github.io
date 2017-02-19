@@ -3,11 +3,6 @@
   price: 23
   category: Starters
 
-- name: Smoke Trout 
-  description: Yummy 
-  price: 123
-  category: Starters
-
 - name: Pizza Breads
   description: Feta or Peppadews & feta.
   price: 27/30 
