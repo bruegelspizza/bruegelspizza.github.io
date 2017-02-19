@@ -1,5 +1,10 @@
 - name: Pizza Breads
   description: Brushed with olive oil & crushed garlic.
+  price: 23
+  category: Starters
+
+- name: Smoke Trout 
+  description: Yummy 
   price: 123
   category: Starters
 
